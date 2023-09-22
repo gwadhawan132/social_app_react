@@ -1,0 +1,52 @@
+.sidebar{
+    margin-left: 5px;
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position:sticky;
+    top:50px; 
+     {/* for creating a scroll only on the sidebar side of the app in case of over flow*/}
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+   background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+}
+.sidebarWrapper{
+    padding: 20px;
+}
+.sidebarList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebarlistItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarlistitemIcon{
+    margin-right: 15px;
+    background-color: red;
+}
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.sidebarHr{
+    margin: 20px 0;
+}
+.sidebarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
